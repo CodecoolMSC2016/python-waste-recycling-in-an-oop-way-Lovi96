@@ -1,2 +1,2 @@
 class DustbinContentError(Exception):
-    pass
+    print("You cant throw that out!")
