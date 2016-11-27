@@ -13,7 +13,6 @@ class Dustbin:
         self.house_waste_content = []
 
     def throw_out_garbage(self, garbage):
-        print(garbage)
         if (type(garbage) == PaperGarbage) and garbage.is_squeezed:
             self.paper_content.append(garbage)
         if (type(garbage) == PlasticGarbage) and garbage.is_clean:
